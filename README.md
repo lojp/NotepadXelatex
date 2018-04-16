@@ -10,8 +10,8 @@ Old version for pdflatex:
   NPP_SAVE                           //save the current file;  
   cd $(CURRENT_DIRECTORY)   
   pdflatex.exe  $(NAME_PART).tex     //run the padlatex program;  
-  gbk2uni.exe $(NAME_PART).out //编译.out文件  
-  pdflatex.exe  $(NAME_PART).tex //再编译一次，避免生成的书签乱码  
+  gbk2uni.exe $(NAME_PART).out        //编译.out文件  
+  pdflatex.exe  $(NAME_PART).tex      //再编译一次，避免生成的书签乱码  
   NPP_RUN $(NAME_PART).pdf           //show the resulting LaTeX created PDF;  
 ```
 
@@ -20,11 +20,11 @@ new version for xelatex:    
 ```
   NPP_SAVE                           //save the current file;  
   cd $(CURRENT_DIRECTORY)   
-  xelatex.exe  $(NAME_PART).tex     //run the padlatex program;  
+  xelatex.exe  $(NAME_PART).tex       //run the padlatex program;  
   makeindex $(NAME_PART).idx  
   bibtex $(NAME_PART).bib  
-  gbk2uni.exe $(NAME_PART).out //编译.out文件  
-  xelatex.exe  $(NAME_PART).tex //再编译一次，避免生成的书签乱码  
+  gbk2uni.exe $(NAME_PART).out        //编译.out文件  
+  xelatex.exe  $(NAME_PART).tex       //再编译一次，避免生成的书签乱码  
   NPP_RUN $(NAME_PART).pdf           //show the resulting LaTeX created PDF;  
 ```
 
