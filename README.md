@@ -28,7 +28,7 @@ pdflatex %2
 call:cleanup  
   
 :: Open PDF  
-START "" "D:\SumatraPDF\SumatraPDF.exe" %3 -reuse-instance  
+START "" `"D:\SumatraPDF\SumatraPDF.exe"` %3 -reuse-instance  
 
 :: Cleanup Function  
 :cleanup  
