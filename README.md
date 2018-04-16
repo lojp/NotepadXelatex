@@ -44,10 +44,11 @@ goto:eof
 ```
 
 2， 安装NppExec插件    
-  >32-bit Notepad++   
+ >32-bit Notepad++   
   在notepad++界面, 点击 Plugins -> Plugin Manager -> Show Plugin Manager, 打开后如下图所示, 找到图示勾选的插件, 点击 Install. 自动下载安装好后会提示重启。  
   ![image](https://img-blog.csdn.net/20160518133702452)  
-  >64-bit Notepad++   
+  
+ >64-bit Notepad++   
   https://nchc.dl.sourceforge.net/project/npp-plugins/NppExec/NppExec%20Plugin%20v0.5.9.9%20dev/NppExec20160628_dll_x64-2.zip  
   点击下载地址，进行下载，下载完成之后，将解压出来的NppExec.dll文件复制到path\to\Notepad++\plugins文件夹下.重启Notepad++,这个时候就能够在Plugin的下拉菜单中找到NppExec插件了。  
   
