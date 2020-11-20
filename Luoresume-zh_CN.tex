@@ -3,89 +3,96 @@
 % !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
-\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{CJKutf8}
+\usepackage{sqrcaps} % English fonts
+% \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
+\usepackage{setspace}
+
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{罗继平}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\name{Jiping Luo}
 
 \basicInfo{
-  \email{lojip@163.com} 
-  \phone{183-5189-4850} 
+  \email{lojip@163.com} \textperiodcentered\ 
+  \phone{183-5189-4850} \textperiodcentered\ 
+  \faHome{Nanjing,Jiangsu}\textperiodcentered\ 
 }
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{南京大学}, 南京}{2015 -- 至今}
-\textit{在读硕士研究生}\ MBA, 预计 2018 年 5 月毕业
-\datedsubsection{\textbf{南京农业大学}, 南京}{2006 -- 2010}
-\textit{学士}\ 工商管理-市场营销
+\section{\faGraduationCap\  Education}
+\datedsubsection{\textbf{Nanjing University}}{2015.9 -- 2018.7}
+\textbf{M.S  }\ \quad MBA - Marketing
+\datedsubsection{\textbf{Nanjing Agriculture University}}{2006.9 -- 2010.6}
+\textbf{B.S  }\ \quad Business management 
 
-\section{\faTrain\ 工作经历}
-\datedsubsection{\textbf{RLE INTERNATIONAL GmbH}，南京}{2013年11月 -- 至今}
-\role{数据分析咨询顾问}{}
-负责 Ford亚太区Warranty项目数据分析
+\linespread{1}
+\section{\faCalendarCheckO\ Experiences}
+\datedsubsection{\textbf{MSXi International} \quad Supplier Recovery Leader}{Nanjing \quad 2019.11-Ongoing}
 \begin{itemize}
-  \item 对零件底层数据进行清洗，重新搭建汽车零件采购、销售、质保的数据模型；
-  \item 挖掘零件数据的可替代性，减少采购成本，帮助项目2016年度提前1月完成降本任务；
-  \item 用weibull模型重新设计Hazard Forecast算法，减少非成熟车型风险预测偏差，增加可靠性；
-  \item 日常数据监测质量问题，帮助项目经理进行分析，辅助研发进行质量改进。
+    \item As Lincoln supplier recovery leader, Be responsible for warranty chargeback of imported vehicles.
+    \item Work closely with multiple departments (PD, STA, Purchase and Quality etc.,) to complete recovery target.
+    \item Responsible for booking cost budget, failure analysis, doing research, negotiations, and routine reports.
+    \item Review accuracy and speed for project process, check projects status and update correctly \& accordingly.
+    \item Data speaking and visualization skills can help to convince suppliers to take responsibilities.
+    \item Improve and accelerate process for projects management with data thinking to achieve target by 308\%.
 \end{itemize}
 
-\datedsubsection{\textbf{中外运-敦豪国际航空快件有限公司}，深圳}{2011年11月 -- 2013年10月 }
-\role{市场销售分析师}{项目leader}
-负责深圳分区市场销售数据分析及支持
-%\begin{onehalfspacing}
-%分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+
+\datedsubsection{\textbf{RLE International} \quad Data Analysis Expert}{Nanjing \quad 2013.11–2018.12}
 \begin{itemize}
-  \item 物流数据库处理经验，建立自动报表体系，挖掘数据、分析问题，提供决策数据； 
-  \item 负责销售、行业的数据处理、信息挖掘、异动分析，关注销售KPI指标的达成；
-  \item 主导FTB Project，利用存量数据，挖掘及提供销售线索，帮助销售完成新客户开发；
-   \item 提供的线索有效率为21\%，帮助公司183\%超额完成新客户开发的目标。
+    \item As the data expert, identify and analyze key factors to reduce warranty spend.
+    \item Design the big database and tools to gain more repricing and procurement opportunities.
+    \item Redesign an algorithm that forecast hazard of vehicles to reduce prediction error.
+    \item Create automatic reports with multi data analysis tools to save labor hours.
+\end{itemize}
+
+\datedsubsection{\textbf{DHL Express} \quad Sales Analyst}{Shenzhen \quad 2011.11-2013.10}
+\begin{itemize}
+    \item Generate automatic reports, analyze marketing performances, and especially focus on target achievement.
+    \item Track and analyze sales' behaviors that develop and maintain top customers to help improve performances.
+    \item Build customer life cycle models to help sales develop and maintain customers.
+    \item Lead FTB Project, mine the websites to find sales leads which assist sales to develop new customers.
 \end{itemize}
 %\end{onehalfspacing}
 
-\datedsubsection{\textbf{比亚迪汽车销售有限公司} ，深圳}{2010 年7月 -- 2011 年11月}
-\role{市场分析专员}{}
-负责公司两款车型（G3/G3R）的市场工作
-%\begin{onehalfspacing}
-%优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\datedsubsection{\textbf{BYD Auto} \quad Marketing Analyst}{Shenzhen \quad 2010.7-2011.10}
 \begin{itemize}
-  \item 负责竞争对手的企业的销量监控、情报收集、营销动态分析、竞品分析等；
-  \item 跟踪新车上市的销量、价格，撰写销量分析报告，制定营销节奏方案，定期向副总裁汇报；
-  \item 制定有效的营销策略，G3每月销量由2740辆提升至顶峰6889辆，增幅达到150\%。
+    \item Monitor competitors and collect marketing data to complete competitive analysis reports.
+    \item Responsible for customer satisfaction survey, collect customers voice to improve future production.
+    \item Developed effective marketing strategies to improve sales volume from 2,740 to 6,889 per month.
 \end{itemize}
 %\end{onehalfspacing}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
-\section{\faCamera\ 项目经验}
+\section{\faDiamond\ Skills}
 % increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 运用Python,SQL等工具，对数据库底层数据进行清洗，建立了数据量达亿级的零件查询系统，通过此工具，可以快速查找零件新旧替代关系、价格信息、高索赔零件等信息，帮助项目组降低索赔费用。 
-  \item 负责FTB Project，分析航线（分析竞争对手，发现欧洲航线机会）、市场（总结出3C、消费电子、婚纱、义齿等热销）、客户（B2C兰亭集势、环球易购等跨境电商繁荣）等动态，提供销售线索（利用内网平台创建爬虫抓取非法代理运单信息，挖掘速卖通等外网站上卖家信息，挖掘政府奖励出国展览企业信息等），及时跟进总结统计新开发客户业绩，制定切中要点的FTB开发短期激励，帮助销售183\%完成新客户开发。  
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{Data Analysis}: Python, R, VBA, SQL, SQL Server, MySQL, Oracle, Alteryx, Qlikview
+  \item \textbf{Stengths}: Data Thinking, Project Management
 \end{itemize}
 
-%\section{\faHeartO\ 获奖情况}
-%\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-%\datedline{其他奖项}{2015}
-
-\section{\faDiamond\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 语言: 英语 - 可沟通；持续学习能力：非科班的技术之路（Python/R/SQL/Latex/VBA）
+\section{\faCheckSquare\ Projects}
+% increase linespacing [parsep=0.6ex]
+\begin{itemize}[parsep=0.6ex]
+  \item Create warranty parts query system with multi data analysis and visualization tools (Python, SQL, Qlikview .etc), \
+        Team can quickly check repricing and procurement opportunities in the system. Total saving is more than \$1 million per year when the system was launched.
+  \item Find sales leads using data mining skill (crawler downloading sellers information from AliExpress website) \
+        to help team develop new customers. Finally team completed new customer development target with 183\% achievement rate.
 \end{itemize}
+
 
 %% Reference
 %\newpage
 %\bibliographystyle{IEEETran}
 %\bibliography{mycite}
 \end{document}
+
