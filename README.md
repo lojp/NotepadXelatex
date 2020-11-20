@@ -101,4 +101,6 @@ new version for xelatex:    
   xelatex.exe  $(NAME_PART).tex       //再编译一次，避免生成的书签乱码  
   NPP_RUN $(NAME_PART).pdf           //show the resulting LaTeX created PDF;  
 ```
-
+ps:
+1，有趣的表情包
+http://tug.ctan.org/info/symbols/comprehensive/symbols-letter.pdf
