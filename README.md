@@ -104,3 +104,5 @@ new version for xelatex:    
 ps:
 1，有趣的表情包
 http://tug.ctan.org/info/symbols/comprehensive/symbols-letter.pdf
+2, fontawesome package
+http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf
