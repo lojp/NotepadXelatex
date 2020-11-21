@@ -106,3 +106,5 @@ ps:\
 http://tug.ctan.org/info/symbols/comprehensive/symbols-letter.pdf \
 2, fontawesome package\
 http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf \
+3, PDF to Doc \
+https://convertonlinefree.com/PDFToWORDEN.aspx# 
