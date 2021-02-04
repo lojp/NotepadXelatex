@@ -108,3 +108,5 @@ http://tug.ctan.org/info/symbols/comprehensive/symbols-letter.pdf \
 http://mirrors.ibiblio.org/CTAN/fonts/fontawesome/doc/fontawesome.pdf \
 3, PDF to Doc \
 https://convertonlinefree.com/PDFToWORDEN.aspx# 
+4，情感色彩分析 \
+https://www.cnblogs.com/always-fight/p/10304806.html
