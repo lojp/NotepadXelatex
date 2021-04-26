@@ -101,11 +101,11 @@ new version for xelatex:    
   xelatex.exe  $(NAME_PART).tex       //再编译一次，避免生成的书签乱码  
   NPP_RUN $(NAME_PART).pdf           //show the resulting LaTeX created PDF;  
 ```
-6，tex安装技法：
+6，tex安装技法：\
 uninstalled adobe reader \
 install samrtpdf \
 ran the install wizard and installed to my new folder as single user. (I never got the system install to work.) \
-After the wizard, immediately run MiKTeX Update Wizard. I selected to update only miktex-texworks-bin. (If I didn't run the updates before trying to TeX a document, nothing worked at all.) \
+After the wizard, immediately run MiKTeX Update Wizard. I selected to update only miktex-texworks-bin. (If I didn't run the updates before trying to TeX a document, nothing worked at all.) 
 
 
 ps:\
