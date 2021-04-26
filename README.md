@@ -107,6 +107,7 @@ install samrtpdf \
 ran the install wizard and installed to my new folder as single user. (I never got the system install to work.) \
 After the wizard, immediately run MiKTeX Update Wizard. I selected to update only miktex-texworks-bin. (If I didn't run the updates before trying to TeX a document, nothing worked at all.) 
 
+就检查一下包 tex-gyre 是否安装，是否以 User 身份安装。 如果以 Admin 身份安装，卸载掉以 User 身份重新安装。（MikTex Console 里面查看安装即可）\
 
 ps:\
 1，有趣的表情包\
